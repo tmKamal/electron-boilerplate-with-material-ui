@@ -1,6 +1,6 @@
-## Automated Timetable Generator
+## Electron kickstarter with Material-UI
 
-boilerplate for electron.js
+An Electron React boilerplate with Material UI to speed up the process of building desktop applications. Start to develop your next desktop application without hassle.
 
 ### Install
 
