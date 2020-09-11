@@ -104,7 +104,7 @@ const Interface_01 = () => {
             variant="h4"
             align="center"
           >
-            Add a Building
+            Sample Form
           </Typography>
 
           <form onSubmit={submitHandler} className={classes.form} noValidate>
