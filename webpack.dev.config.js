@@ -28,7 +28,7 @@ module.exports = {
 	},
 	target: 'electron-renderer',
 	plugins: [
-		new HtmlWebpackPlugin({ title: 'electron-boilerplate-with-material-ui' }),
+		new HtmlWebpackPlugin({ title: 'Electro-Dash v1.0' }),
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify('development'),
 		}),

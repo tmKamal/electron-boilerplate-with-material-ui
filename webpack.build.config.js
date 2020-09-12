@@ -32,7 +32,7 @@ module.exports = {
 		historyApiFallback: true,
 	  },
 	plugins: [
-		new HtmlWebpackPlugin({ title: 'electron-boilerplate-with-material-ui' }),
+		new HtmlWebpackPlugin({ title: 'Electro-Dash v1.0' }),
 		new MiniCssExtractPlugin({
 			filename: 'bundle.css',
 			chunkFilename: '[id].css',

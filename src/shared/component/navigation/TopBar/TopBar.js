@@ -82,7 +82,7 @@ const TopBar = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" noWrap>
-          Electron + Material-UI Boilerplate
+          Electro-Dash
         </Typography>
         <IconButton
           className={classes.toggleIcon}

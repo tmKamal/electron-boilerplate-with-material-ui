@@ -20,13 +20,11 @@ const HomePage = () => {
         color="textPrimary"
         gutterBottom
       >
-        Electron Kickstarter
+        Electro-Dash
       </Typography>
 
       <Typography variant="h5" align="center" color="textSecondary" paragraph>
-        An Electron React boilerplate with Material UI to speed up the process
-        of building desktop applications. Start to develop your next desktop
-        application without hassle.
+      An Electron+React Dashboard with Material UI to speed up the process of building desktop applications. Start to develop your next desktop application without any hassle.
       </Typography>
       <div>
         <Grid container spacing={2} justify="center">
