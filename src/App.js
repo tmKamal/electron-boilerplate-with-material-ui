@@ -7,16 +7,16 @@ import {
   Redirect,
 } from "react-router-dom";
 import MiniDrawer from "./shared/component/navigation";
-import HomePage from "./shared/pages/HomePage";
+import HomePage from "./homepage/pages/HomePage";
 import Interface_01 from "./example_01/pages/Interface_01";
 import Interface_02 from "./example_01/pages/Interface_02";
-import regeneratorRuntime from "regenerator-runtime";
+import InterfaceStats from "./stats/pages/Interface_stats";
 import { Helmet } from "react-helmet";
 import { ThemeContext } from "./shared/context/ThemeContext";
 import DarkTheme from "./shared/themes/DarkTheme";
 import LightTheme from "./shared/themes/LightTheme";
 import { ThemeProvider } from "@material-ui/core";
-import InterfaceStats from "../stats/pages/Interface_stats";
+import regeneratorRuntime from "regenerator-runtime";
 
 export default function App() {
   const [darkState, setDarkState] = useState(false);
