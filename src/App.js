@@ -16,6 +16,7 @@ import { ThemeContext } from "./shared/context/ThemeContext";
 import DarkTheme from "./shared/themes/DarkTheme";
 import LightTheme from "./shared/themes/LightTheme";
 import { ThemeProvider } from "@material-ui/core";
+import InterfaceStats from "../stats/pages/Interface_stats";
 
 export default function App() {
   const [darkState, setDarkState] = useState(false);
@@ -54,6 +55,10 @@ export default function App() {
           <Route path="/interface-02" exact>
             <Interface_02></Interface_02>
           </Route>
+          <Route path="/interface-stats" exact>
+            <InterfaceStats></InterfaceStats>
+          </Route>
+          
           <Redirect to="/"></Redirect>
         </Switch>
       </MiniDrawer>

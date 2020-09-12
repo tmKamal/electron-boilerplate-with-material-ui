@@ -42,7 +42,7 @@ const SideBarLinks = () => {
         </ListItem>
       </NavLink>
       {/*============== Home page End===================== */}
-      {/* ============== Sample drop down new ===================== */}
+      {/* ============== Sample drop down ===================== */}
       <ListItem button onClick={() => setBuildingOpen(!buildingOpen)}>
         <ListItemIcon>
           <InboxIcon />
@@ -81,6 +81,20 @@ const SideBarLinks = () => {
         </List>
       </Collapse>
       {/* ============== Sample dropdown End ===================== */}
+      {/*============== Stats Page===================== */}
+      <NavLink
+        style={{ textDecoration: "none" }}
+        to="/interface-stats"
+        className="MuiTypography-colorInherit "
+      >
+        <ListItem button>
+          <ListItemIcon>
+            <EqualizerIcon></EqualizerIcon>
+          </ListItemIcon>
+          <ListItemText primary="Statistics" />
+        </ListItem>
+      </NavLink>
+      {/*============== Stats page End===================== */}
     </List>
   );
 };
